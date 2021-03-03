@@ -1,9 +1,114 @@
-.hobbyCard {
-    background-color: darkgray;
-    height: 200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contentMaxWidth {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flexBox {
     display: flex;
-    align-items: center;
+    
+}
+
+.herospace .contentMaxWidth {
+    height: 40vh;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+}
+
+.titleBox {
+    height: 20vh;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.card {
+    padding: 0;
+    border: 15px solid white;
+    background-color: #f8f9fa;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer .contentMaxWidth {
+    display: flex;
+    padding: 15px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+footer li{
+    margin: 0 30px;
+}
+
+footer h5{
+    margin-bottom: 0 !important;
+}
+
+.CustomPadding {
+    padding: 0 15px;
+}
+
+.bg-dark {
     color: white;
-    margin: 0 10px;
+}
+
+.bg-secondary {
+    color: white;
+}
+
+.mainContentBox {
+    margin-top: 30px;
+}
+
+.sideBar {
+    width: 25%;
+}
+
+.sideBar ul{
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.sideBar li{
+    padding: 20px;
+    border: solid white 1px;
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: #212529;
+    ;
+}
+
+#onThePage {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+#onThePage li{
+    background-color: rgb(185, 189, 196) !important;
+}
+
+.leftContent {
+    margin-left: 5%;
+    width: 70%;
+}
+
+.floatImage {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
 }
