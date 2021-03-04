@@ -16,9 +16,12 @@
     
 }
 
+.cardContainer {
+    margin-bottom: 2%;
+}
+
 .card {
     padding: 0;
-    border: 15px solid white;
     background-color: #f8f9fa;
 }
 
