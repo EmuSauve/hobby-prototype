@@ -1,3 +1,5 @@
+/* Common styles*/
+
 * {
     margin: 0;
     padding: 0;
@@ -14,23 +16,22 @@
     
 }
 
-.herospace .contentMaxWidth {
-    height: 40vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.titleBox {
-    height: 20vh;
-    margin-bottom: 20px;
-    align-items: center;
-}
-
 .card {
     padding: 0;
     border: 15px solid white;
     background-color: #f8f9fa;
+}
+
+.CustomPadding {
+    padding: 0 15px;
+}
+
+.bg-dark {
+    color: white;
+}
+
+.bg-secondary {
+    color: white;
 }
 
 footer {
@@ -57,17 +58,23 @@ footer h5{
     margin-bottom: 0 !important;
 }
 
-.CustomPadding {
-    padding: 0 15px;
+/* Homepage styles*/
+
+.herospace .contentMaxWidth {
+    height: 40vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.bg-dark {
-    color: white;
+.titleBox {
+    height: 20vh;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
-.bg-secondary {
-    color: white;
-}
+
+/* Subpage styles*/
 
 .mainContentBox {
     margin-top: 30px;
