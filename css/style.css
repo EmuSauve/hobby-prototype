@@ -42,7 +42,6 @@ footer {
 }
 
 footer .contentMaxWidth {
-    display: flex;
     padding: 15px;
 }
 
@@ -51,14 +50,16 @@ footer ul{
     list-style: none;
     align-items: center;
     margin-bottom: 0 !important;
+    padding: 0;
 }
 
 footer li{
-    margin: 0 30px;
+    margin-right: 20px;
 }
 
 footer h5{
     margin-bottom: 0 !important;
+    margin-right: 30px;
 }
 
 /* Homepage styles*/
@@ -118,7 +119,26 @@ footer h5{
 }
 
 .floatImage {
-    width: 300px;
+    width: 40%;
     float: left;
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 900px) {
+    .mainContentBox .flexBox{
+        flex-direction: column;
+    }
+
+    .sideBar {
+        width: 100%;
+    }
+
+    .leftContent {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    footer .contentMaxWidth {
+        display: block;
+    }
+  }
