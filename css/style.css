@@ -113,6 +113,10 @@ footer h5{
     background-color: rgb(185, 189, 196) !important;
 }
 
+#onThePageClickable li{
+    background-color: rgb(185, 189, 196) !important;
+}
+
 .leftContent {
     margin-left: 5%;
     width: 70%;
